@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#333333, black);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.title {
+  font-size: 3vh;
+  font-family: Verdana;
+  font-weight: bold;
+  color: blue;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.login-signup {
+  margin: 10px;
+  padding: 5px;
+}
+
+.header-item {
+  list-style-type: none;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.media-box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.media-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.media-item {
+  border: solid 5px white;
+  height: 10vh;
+  width: 20vh;
+}
+
+input {
+  background-color: white;
+  width: 10vw;
+}
+
+.credentials {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 20vw;
+  height: 30vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title {
+  color: black;
+  font-family: Verdana;
+}
+
+button {
+  color: black;
+  font-family: Verdana;
+}
+
+.password {
+  width: 167px;
+}
+
+.password-checkbox {
+  width: 10px;
+}
+
+.header-button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  background-image: inherit;
+}
