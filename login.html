@@ -5,15 +5,19 @@
     <title>Payton's Play/Pause</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body id="body" onload="randomGradient()">
     <nav>
       <ul class="header">
-        <li class="header-item title">3P</li>
+        <li class="header-item title"><button type="button" name="button" class="header-button" onclick="setBg()">3P</button></li>
+        <li class="header-item"><div class="login-signup">
+          <button type="button" name="home"><a href="index.html">Home</a></button>
+          <button type="button" name="signup"><a href="signup.html">Sign up</a></button>
+        </div></li>
       </ul>
     </nav>
 
     <div class="credentials">
-      <div class="login-box">
+      <div class="login-box" id="loginBox">
         <h1 class="login-title">Login</h1>
         <input type="text" name="username" placeholder="username">
         <div class="password-box">

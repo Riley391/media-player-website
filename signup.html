@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payton's Play/Pause</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body" onload="randomGradient()">
+    <nav>
+      <ul class="header">
+        <li class="header-item title"><button type="button" name="button" class="header-button" onclick="setBg()">3P</button></li>
+        <li class="header-item"><div class="login-signup">
+          <button type="button" name="home"><a href="index.html">Home</a></button>
+          <button type="button" name="login"><a href="login.html">Login</a></button>
+        </div></li>
+      </ul>
+    </nav>
+
+    <div class="credentials">
+      <div class="login-box" id="loginBox">
+        <h1 class="login-title">Sign up</h1>
+        <input type="text" name="username" placeholder="username">
+        <div class="password-box">
+          <input type="password" name="password" placeholder="password" class="password" id="password">
+          <input type="checkbox" name="password-visible-on" class="password-checkbox" id="passVisCheck" onclick="passVisSwitch()">
+        </div>
+        <button type="button" name="login"><a href="index.html">Sign up</a></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -71,7 +71,7 @@ input {
 }
 
 .credentials {
-  margin-top: 100px;
+  margin-top: 200px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -102,7 +102,7 @@ button {
 }
 
 .password {
-  width: 167px;
+  width: 8.7vw;
 }
 
 .password-checkbox {
@@ -114,5 +114,5 @@ button {
   font-family: inherit;
   border: 0;
   padding: 0;
-  background-image: inherit;
+  background: rgba(204, 204, 204, 0);
 }
