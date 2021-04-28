@@ -21,7 +21,7 @@ function randomGradient() {
   var randomColor1 = Math.floor(Math.random()*16777215).toString(16);
   var randomColor2 = Math.floor(Math.random()*16777215).toString(16);
   var randomColor3 = Math.floor(Math.random()*16777215).toString(16);
-  var loginGradient = document.getElementById("body");
-  var styleString = "background-image: linear-gradient(" + randomColor1 + ", " + randomColor2 + ");";
+  var loginGradient = document.getElementById("loginBox");
+  var styleString = "background-image: linear-gradient(45deg, #" + randomColor1 + ", #" + randomColor2 + ", #" + randomColor3 + ");";
   loginGradient = loginGradient.setAttribute("style", styleString);
 }

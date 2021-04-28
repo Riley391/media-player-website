@@ -50,6 +50,7 @@ a {
 .media-box {
   margin-top: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -60,9 +61,25 @@ a {
 }
 
 .media-item {
+  filter: blur(1px);
+}
+
+.media-item:hover {
+  filter: blur(0);
+}
+
+.vid-item {
   border: solid 5px white;
-  height: 10vh;
-  width: 20vh;
+  height: 80px;
+  width: 140px;
+  background-color: gray;
+}
+
+.music-item {
+  border: solid 5px white;
+  height: 80px;
+  width: 80px;
+  background-color: gray;
 }
 
 input {
@@ -115,4 +132,9 @@ button {
   border: 0;
   padding: 0;
   background: rgba(204, 204, 204, 0);
+}
+
+.big-vid {
+  display: flex;
+  justify-content: center;
 }
